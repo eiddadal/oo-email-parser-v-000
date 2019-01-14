@@ -11,7 +11,7 @@ class EmailParser
 
   def parse
     @emails.split(", ")
-    row = @emails.CSV
+    
   end 
   
 end 
