@@ -8,7 +8,7 @@ class EmailParser
   
   def parse
     emails = self.new 
-    row = emails.split(",")
+    emails.split(",")
 
     
   end 
