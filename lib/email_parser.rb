@@ -5,8 +5,8 @@
 class EmailParser
   attr_accessor :emails
 
-  def parse(emails)
-    parse.CSV = row 
+  def parse
+    row = prase.CSV
  
     
   end 
