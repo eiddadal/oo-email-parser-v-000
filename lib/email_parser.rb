@@ -6,8 +6,7 @@ class EmailParser
   attr_accessor :email 
   
   def parse
-    rows = @email.split("\n")
-    
+
     
   end 
   
