@@ -10,10 +10,8 @@ class EmailParser
   end 
 
   def parse
-    email = @emails.split(", ")
-    @emails.each do |email| 
-      if email == email 
-      end 
+    email = @emails.split(/[,\s]+/)
+    
     
   end 
   
