@@ -6,7 +6,7 @@ class EmailParser
   @@all = []
   attr_accessor :emails
   
-  def self.parse
+  def parse
     emails = self.new 
     row = emails.split(",")
 
