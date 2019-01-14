@@ -5,7 +5,7 @@
 class EmailParser
 
   def parse
-    EmailParser.new.split(",")
+    parse.csv
   end 
   
 end 
