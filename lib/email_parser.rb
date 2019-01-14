@@ -6,7 +6,7 @@ class EmailParser
   attr_accessor :emails
 
   def parse(emails)
-    parse.CSV do {|emails| emails.split(",")}
+    parse.CSV = row 
     emails
     
   end 
