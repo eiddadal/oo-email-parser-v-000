@@ -8,6 +8,7 @@ class EmailParser
   
   def self.parse
     email = self.new 
+    row = email.split(",")
 
     
   end 
