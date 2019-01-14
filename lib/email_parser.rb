@@ -10,9 +10,7 @@ class EmailParser
   end 
 
   def parse
-    row = prase.CSV
- 
-    
+    @emails.split(",")
   end 
   
 end 
