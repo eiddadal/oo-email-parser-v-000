@@ -5,7 +5,7 @@
 class EmailParser
 
   def parse
-    parse.CSV
+    parse.CSV do {|emails| email.split(",")}
   end 
   
 end 
