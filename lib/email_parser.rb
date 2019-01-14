@@ -7,7 +7,7 @@ class EmailParser
 
   def parse(emails)
     parse.CSV = row 
-    emails
+ 
     
   end 
   
