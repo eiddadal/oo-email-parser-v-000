@@ -4,7 +4,7 @@
 # or whitespace (' ').
 class EmailParser
 
-  def parse
+  def self.parse
     self.new.split(", ")
   end 
   
