@@ -11,6 +11,9 @@ class EmailParser
 
   def parse
     @emails.split(", ")
+    @emails.each do |email| 
+      if email == email 
+      end 
     
   end 
   
